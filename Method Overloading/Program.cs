@@ -7,7 +7,7 @@ namespace Method_Overloading // 3-2-23
         {
             int choice;
 
-            Console.WriteLine("Please pick your bundle: \n"); 
+            Console.WriteLine("Please pick your Bundle: \n"); 
             Console.WriteLine("1 - MedioCore \n");
             Console.WriteLine("2 - Single \n");
             Console.WriteLine("3 - LoFi-Nights \n");
@@ -28,7 +28,7 @@ namespace Method_Overloading // 3-2-23
 
             else if (choice == 3)
             {
-                C1("Any Coffee of Choice + free 2 pcs of donut of choice");
+                C1("Any Coffee of Choice + Free 2 pcs. of donut of choice");
             }
 
             else if (choice == 4)
@@ -46,7 +46,7 @@ namespace Method_Overloading // 3-2-23
         static void C1(String a, String b, String c)
         {
             Console.Clear();
-            Console.WriteLine("Your Order is the MedioCore bundle: \n");
+            Console.WriteLine("Your Order is the MedioCore Bundle: \n");
             Console.WriteLine(a + "\n"); 
             Console.WriteLine(b + "\n");
             Console.WriteLine(c + "\n");
@@ -57,7 +57,7 @@ namespace Method_Overloading // 3-2-23
         static void C1(String a, String b)
         {
             Console.Clear();
-            Console.WriteLine("Your Order is the Single bundle: \n");
+            Console.WriteLine("Your Order is the Single Bundle: \n");
             Console.WriteLine(a + "\n");
             Console.WriteLine(b + "\n");
             Console.WriteLine("Order Completed!, You can now take your sit or Rerun the Program to Order again!.");
@@ -67,7 +67,7 @@ namespace Method_Overloading // 3-2-23
         static void C1(String a)
         {
             Console.Clear();
-            Console.WriteLine("Your Order is the LoFi-Nights bundle: \n");
+            Console.WriteLine("Your Order is the LoFi-Nights Bundle: \n");
             Console.WriteLine(a + "\n");
             Console.WriteLine("Order Completed!, Take your Receipt and Talk to the waiter for your custom Order!.");
             Console.ReadKey();
@@ -76,7 +76,7 @@ namespace Method_Overloading // 3-2-23
         static void C1(String a, String b, String c, String d)
         {
             Console.Clear();
-            Console.WriteLine("Your Order is the Groove bundle: \n");
+            Console.WriteLine("Your Order is the Groove Bundle: \n");
             Console.WriteLine(a + "\n");
             Console.WriteLine(b + "\n");
             Console.WriteLine(c + "\n");
