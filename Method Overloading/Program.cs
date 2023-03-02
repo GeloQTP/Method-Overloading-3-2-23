@@ -44,14 +44,12 @@ namespace Method_Overloading // 3-2-23
 
         }
 
-        static void C1(String a, String b, String c)
+        static void C1(String a)
         {
             Console.Clear();
-            Console.WriteLine("Your Order is the MedioCore Bundle: \n");
-            Console.WriteLine(a + "\n"); 
-            Console.WriteLine(b + "\n");
-            Console.WriteLine(c + "\n");
-            Console.WriteLine("Order Completed!, You can now take your sit or Rerun the Program to Order again!.");
+            Console.WriteLine("Your Order is the LoFi-Nights Bundle: \n");
+            Console.WriteLine(a + "\n");
+            Console.WriteLine("Order Completed!, Take your Receipt and Talk to the waiter for your custom Order!.");
             Console.ReadKey();
         }
 
@@ -65,12 +63,14 @@ namespace Method_Overloading // 3-2-23
             Console.ReadKey();
         }
 
-        static void C1(String a)
+        static void C1(String a, String b, String c)
         {
             Console.Clear();
-            Console.WriteLine("Your Order is the LoFi-Nights Bundle: \n");
-            Console.WriteLine(a + "\n");
-            Console.WriteLine("Order Completed!, Take your Receipt and Talk to the waiter for your custom Order!.");
+            Console.WriteLine("Your Order is the MedioCore Bundle: \n");
+            Console.WriteLine(a + "\n"); 
+            Console.WriteLine(b + "\n");
+            Console.WriteLine(c + "\n");
+            Console.WriteLine("Order Completed!, You can now take your sit or Rerun the Program to Order again!.");
             Console.ReadKey();
         }
 
